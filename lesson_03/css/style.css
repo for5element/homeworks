@@ -1,0 +1,54 @@
+* {
+    color: blueviolet;
+}
+
+#up {
+    color: darkslategray;
+}
+
+#up + p {
+    color: aqua;
+}
+
+p {
+    color: black;
+}
+
+    
+[class*="tit"] {
+        color: blue;
+    }
+
+.list .item {
+    color: darkcyan;
+}
+
+.title ~ h2 {
+        color: green;
+    }
+
+.title-list {
+    color: red;
+}
+
+.title-list ~ li {
+    color: orange;
+}
+
+
+
+.title-item {
+    color: #4597f7;
+}
+
+.title-item + li + li {
+    color: limegreen;
+}
+
+.title-item ~ li {
+    color: #5d5d5d;
+}
+
+a {
+    color: fuchsia;
+}
