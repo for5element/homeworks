@@ -31,7 +31,7 @@ p {
     color: red;
 }
 
-.title-list ~ li {
+.title-list ~ h3 {
     color: orange;
 }
 
