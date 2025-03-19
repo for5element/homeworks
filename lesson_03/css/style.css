@@ -35,14 +35,20 @@ p {
     color: orange;
 }
 
-
-
 .title-item {
     color: #4597f7;
 }
 
 .title-item + li + li {
     color: limegreen;
+}
+
+.item {
+    color: olive;
+}
+
+.item ~ li {
+    color: lime;
 }
 
 .title-item ~ li {
