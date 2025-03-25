@@ -1,0 +1,71 @@
+@import url(reset.css);
+
+body {
+	font-family: "Oswald", sans-serif;
+}
+
+h1 {
+    font-size: 24px;
+    font-weight: 700;
+    color: rgb(247, 12, 12);
+    text-align: center;
+    text-decoration: underline;
+    text-decoration-color: rgb(10, 238, 44);
+}
+
+body > main > div h2 {
+    font-family: "segoescript", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    color: #5d0cd7;
+    text-shadow:
+		5px 10px 2px rgb(20, 202, 38),
+		5px 3px 1px rgb(8, 241, 8);
+}
+
+p {
+    font-size: 16px;
+    font-weight: 200;
+    color: rgb(61, 2, 77);
+    text-align: justify;
+}
+
+.title {
+    text-transform: uppercase;
+    word-spacing: 5px;
+    text-decoration: underline;
+    text-decoration-style: double;
+}
+
+.subtitle {
+    font-size: 18px;
+    font-style: italic;
+    text-decoration-style: wavy;
+}
+
+h3{
+    color: rgb(208, 26, 86);
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 12px;
+}
+
+.text {
+    font-family: "Poppins", sans-serif;
+}
+
+.text-item {
+    color: #1A1A1A;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+.text-item ~ p {
+    color: #808080;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 1.5;
+}

@@ -1,0 +1,7 @@
+@font-face {
+      font-family: "segoescript";
+      src: url(../fonts/segoescript.woff2) format("woff2");
+      font-display: swap;
+      font-weight: 200;
+	  font-style: normal;
+}
