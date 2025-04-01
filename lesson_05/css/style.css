@@ -1,0 +1,121 @@
+@import url(reset.css);
+
+.advantages {
+    background-color: #231F8B;
+    padding: 112px 0;
+}
+
+.section{
+    font-family: "Montserrat", sans-serif;
+    max-width: 1050px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.content {
+    color: #FFFFFF;
+    margin-bottom: 70px;
+}
+
+.advantages-tag {
+    font-family: "Montserrat", sans-serif;
+    color: #5A54F2;
+    font-weight: 700;
+    font-size: 14px;
+    margin-bottom: 10px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.advantages-title {
+    font-family: "CircularStd", sans-serif;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.advantages-paragraph {
+    font-family: "CircularStd", sans-serif;
+    color: #FFFFFF;
+    font-weight: 450;
+    max-width: 765px;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.cards{
+    margin-left: -15px;
+    margin-right: -15px;
+    font-size: 0;
+}
+
+.card-item {
+    /* width: 25%; */
+    width: 240px;
+    display: inline-block;
+    padding-left: 15px;
+    padding-right: 15px;
+    vertical-align: top;
+}
+
+.card-content {
+    background-color: #FFFFFF;
+    font-size: 14px;
+    padding: 35px 40px;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.card-img {
+    width: 72px;
+    height: 72px;
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-family: "CircularStd", sans-serif;
+    color: #252B42;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    margin-bottom: 20px;
+}
+
+.card-line {
+    background-color: #E74040;
+    width: 50px;
+    height: 2px;
+    margin-bottom: 20px;
+}
+
+.card-description {
+    font-family: "Montserrat", sans-serif;
+    color: #737373;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.2px;
+}
+
+.card-bottom{
+    margin-top: 48px;
+}
+
+.card-top .card-content{
+    background-color: #5A54F2;
+
+}
+
+.card-top .card-title {
+    color: #FFFFFF;
+}
+
+.card-top .card-line {
+    background-color: #FFFFFF;
+} 
+
+.card-top .card-description {
+    color: #FFFFFF;
+}
