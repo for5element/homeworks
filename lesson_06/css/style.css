@@ -1,0 +1,196 @@
+@import url(reset.css);
+
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+}
+
+header {
+	font-family: "Poppins", sans-serif;
+	color: #302C42;
+	font-size: 32px;
+	line-height: 1.5;
+	max-width: 648px;
+	margin: 0 auto;
+	border: 2px solid #302C42;
+	padding-left: 50px;
+	border-radius: 90px;
+	background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(103,253,45,1) 100%);
+}
+
+.header-list {
+	font-size: 18px;
+}
+
+.ecobazar-section {
+	font-family: "Poppins", sans-serif;
+	color: #808080;
+	max-width: 648px;
+	margin: 0 auto;
+}
+
+.ecobazar-container {
+	padding-left: 15px;
+	padding-right: 15px;
+	margin-bottom: 20px;
+}
+
+.ecobazar-container > p {
+	margin-bottom: 20px;
+}
+
+.ecobazar-title {
+	color: #000000;
+	font-weight: 500;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	font-size: 32px;
+	background: url(../img/plant\ 1.svg) center left / 32px no-repeat;
+	padding-left: 40px;
+	min-height: 32px;
+}
+
+.ecobazar-list .last {
+	margin-bottom: 20px;
+}
+
+.ecobazar-container .info {
+	margin-bottom: 0px;
+}
+
+.ecobazar-item {
+	margin-bottom: 14px;
+	padding-left: 30px;
+	background: url("../img/check.svg") 0 0 / 20px no-repeat;
+	min-height: 20px;
+}
+
+.hydra-section {
+	background-color: #302C42;	
+	font-family: "Montserrat", sans-serif;
+	color: #FFFFFF;
+	padding: 30px 0;
+}
+
+.hydra-container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.hydra-title {
+	background: url(../img/hydra.svg) center left / 102px no-repeat;
+	min-height: 102px;
+	padding-left: 102px;
+	padding-top: 25px;
+	margin-bottom: 10px;
+	font-size: 36px;
+	text-align: justify;
+}
+
+.hydra-subtitle {
+	padding-left: 84px;
+	padding-right: 84px;
+	margin-bottom: 90px;
+}
+
+.hydra-items {
+	border-radius: 90px;
+	background: radial-gradient(circle, rgba(58,52,86,1) 0%, rgba(33,30,46,1) 100%);
+   padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+.hydra-item {
+	width: 33%;
+	display: inline-block;
+	padding: 27px 30px;
+	vertical-align: middle;
+}
+
+.hydra-location {
+	background: url(../img/Location-Icon.svg) 0 0 / 70px no-repeat;
+	min-height: 70px;
+	padding-left: 70px;
+	padding-top: 10px;
+}
+
+.hydra-subject {
+	size: 24px;
+	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.hydra-detail {
+	size: 14px;
+}
+
+.line {
+	border-left: 1px solid #C0B7E854;
+	border-right: 1px solid #C0B7E854;
+}
+
+.hydra-phone {
+	background: url(../img/outline\ _\ phone-call.svg) 0 0 / 59px no-repeat;
+	min-height: 59px;
+	padding-left: 70px;
+	padding-top: 10px;
+}
+
+.hydra-mail {
+	background: url(../img/outline\ _\ mail.svg) 0 0 / 65px no-repeat;
+	min-height: 65px;
+	padding-left: 70px;
+	padding-top: 10px;
+}
+
+.hydra-content {
+	background: url(../img/Vector\ 7.svg) 0 10px no-repeat, 
+	            url(../img/Vector\ 8.svg) 0 295px no-repeat;
+	padding-left: 84px;
+	padding-right: 84px;
+}
+
+.hydra-image {
+	display: inline-block;
+	margin-right: 108px;
+	max-width: 524px;
+	width: 100%;
+	border-radius: 43.09% 17.95% 43.09% 17.95% / 45.8% 17.95% 45.8% 17.95%;
+	background: #A3A3A3;
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.hydra-aside {
+	max-width: 630px;
+	width: 100%;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.hydra-heading {
+	font-weight: 700;
+	font-size: 36px;
+	padding-bottom: 5px;
+}
+
+.description {
+	font-weight: 300;
+	padding-bottom: 42px;
+}
+
+.hydra-text {
+	font-size: 16px;
+	padding-bottom: 28px;
+	line-height: 1.5;
+}
+
+.hydra-btn {
+	border-radius: 40px;
+	background: linear-gradient(309deg, rgba(192,183,232,1) 0%, rgba(129,118,175,1) 100%);
+	max-width: 214px;
+	height: 48px;
+	font-weight: 700;
+	font-size: 12px;
+	color: #343045;
+	padding: 17px 43px;
+}
