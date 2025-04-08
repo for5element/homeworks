@@ -115,13 +115,13 @@ header {
 }
 
 .hydra-subject {
-	size: 24px;
+	font-size: 24px;
 	font-weight: 700;
 	margin-bottom: 10px;
 }
 
 .hydra-detail {
-	size: 14px;
+	font-size: 14px;
 }
 
 .line {
