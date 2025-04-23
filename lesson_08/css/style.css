@@ -1,0 +1,95 @@
+@import url(reset.css);
+@import url(fonts.css);
+
+.wrapper{
+	overflow: clip;
+	min-height: 100%;
+	background: linear-gradient(0deg,rgba(16, 197, 224, 1) 0%, rgba(23, 135, 66, 1) 100%);
+	font-family: "Cristina", serif;
+	font-weight: bold;
+}
+
+.header {
+	font-size: 44px;
+	text-align: center;
+	padding: 30px;
+	margin-bottom: 50px;
+	border-bottom: 5px double yellow;
+	background-color: rgb(15, 188, 231);
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.section {
+	font-size: 40px;
+	text-align: center;
+	color: blue;
+}
+
+.page .container >* {
+	margin-bottom: 60px;
+}
+.section > h2 {
+	margin-bottom: 50px;
+}
+
+.section__icon{
+outline: 4px dashed rgb(237, 227, 25);
+}
+
+.section__icon .section__icon__black, .section__icon__white, .section__icon__btm {
+	margin-bottom: 45px;
+}
+
+.section__icon ul li {
+	padding-right: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.section__icon .section__icon__black ul li, .section__icon__btm ul li {
+	width: 25%;
+}
+
+.section__icon .section__icon__black ul, .section__icon__white ul, .section__icon__btm ul {
+	margin: 0 -15px -15px 0;
+	font-size: 0;
+}
+
+.section__icon__white ul li {
+	width: 33.3%;
+}
+
+.section__icon .section__icon__black ul li, .section__icon__white ul li, .section__icon__btm ul li {
+	display: inline-block;
+	text-align: center;
+}
+
+.icon_btm {
+	background-color: white;
+	border-radius: 80%;
+	padding: 5px;
+	width: 70px;
+	height: 70px;
+}
+
+.picture {
+	max-width: 100%;
+	vertical-align: middle;
+	text-align: center;
+	margin: 0 20px 20px 0;
+}
+
+.picture_item {
+	border-radius: 33.09% 17.95% 43.09% 17.95% / 45.8% 17.95% 45.8% 17.95%;
+}
+
+.icon_btm img {
+	width: 60px;
+	height: 60px;
+}
