@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/slyle.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+	<title>Lesson 14</title>
+</head>
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<h1>HTML Forms</h1>
+			</div>
+		</header>
+		<main>
+			<div class="section">
+				<div class="section__container">
+					<form class="section__checkout" action="#">
+						<div class="section__billing">
+							<h2 class="section__title">
+								Billing Information
+							</h2>
+							<div class="form-part">
+								<div class="form-part__block">
+									<div class="form-part__line">
+										<label class="form-part__label" for="first_name">First name</label>
+							         <input required class="form-part__input" id="first_name" autocomplete="off" placeholder="Your first name" type="text">
+									</div>
+									<div class="form-part__line">
+										<label class="form-part__label" for="last_name">Last name</label>
+							         <input required class="form-part__input" id="last_name" autocomplete="off" placeholder="Your last name" type="text">
+									</div>
+									<div class="form-part__line">
+										<label class="form-part__label" for="company_name">Company Name<span> (optional)</span></label>
+							         <input required class="form-part__input" id="company_name" autocomplete="off" placeholder="Company name" type="text">
+									</div>
+								</div>
+								<div class="form-part__block">
+									<div class="form-part__line">
+										<label class="form-part__label" for="street_address">Street Address</label>
+							         <input required class="form-part__input" id="street_address" autocomplete="off" placeholder="Your street address" type="text">
+									</div>
+								</div>
+								<div class="form-part__block">
+									<div class="form-part__line">
+										<label class="form-part__label" for="country_region">Country / Region</label>
+										<select required class="form-part__select" name="Country / Region" id="country_region" autocomplete="off">
+											<option value="select" hidden>Select</option>
+											<option value="ukraine">Ukraine</option>
+											<option value="poland">Poland</option>
+											<option value="germany">Germany</option>
+										</select>
+									</div>
+									<div class="form-part__line">
+										<label class="form-part__label" for="states">States</label>
+										<select required class="form-part__select" name="States" id="states" autocomplete="off">
+											<option value="select" hidden>Select</option>
+											<option value="kyiv">Kyiv</option>
+											<option value="lviv">Lviv</option>
+											<option value="warsaw">Warsaw</option>
+											<option value="krakow">Krakow</option>
+											<option value="berlin">Berlin</option>
+											<option value="dresden">Dresden</option>
+										</select>
+									</div>
+									<div class="form-part__line">
+										<label class="form-part__label" for="zip_code">Zip Code</label>
+							         <input required class="form-part__input" id="zip_code" autocomplete="off" placeholder="Zip Code" type="text">
+									</div>
+								</div>
+								<div class="form-part__block">
+									<div class="form-part__line">
+										<label class="form-part__label" for="email">Email</label>
+							         <input required class="form-part__input" id="email" autocomplete="off" placeholder="Email Address" type="email">
+									</div>
+									<div class="form-part__line">
+										<label class="form-part__label" for="phone">Phone</label>
+							         <input required class="form-part__input" id="phone" autocomplete="off" placeholder="Phone number" type="tel">
+									</div>
+								</div>
+							</div>
+							<div class="form-block">
+								<label class="form-block__checkbox">
+								   <input type="checkbox" value="some" name="form[]" class="form-block__input">
+								   <span class="form-block__label">
+										Ship to a different address
+									</span>
+							   </label>
+							</div>
+								<h2 class="section__title">
+									Additional Info
+								</h2>
+							<div class="form-part">
+									<div class="form-part__line">
+										<label class="form-part__label" for="order-notes">Order Notes (Optional)</label>
+										<textarea name="form[]" class="form-part__textarea" placeholder="Notes about your order, e.g. special notes for delivery"></textarea>
+									</div>
+							</div>
+						</div>
+						<div class="section__order">
+							<div class="section__summery">
+								<h2 class="section__subject">
+									Order Summery
+								</h2>
+							<div class="section__product">
+								<div class="form-list">
+									<div class="form-list__block">
+									   <img class="form-list__img" src="/img/paper-green.jpg" alt="Green paper">
+									   <p class="form-list__name">Green Capsicum</p>
+									   <p class="form-list__number">x5</p>
+								   </div>
+									<p class="form-list__sum">$70.00</p>
+								</div>
+								<div class="form-list">
+								   <div class="form-list__block">
+									   <img class="form-list__img" src="/img/paper-red.jpg" alt="Green paper">
+									   <p class="form-list__name">Red Capsicum</p>
+									   <p class="form-list__number">x1</p>
+								   </div>
+								   <p class="form-list__sum">$14.00</p>
+							   </div>
+						   </div>
+							<div class="section__detail">
+							   <div class="form-detail">
+								   <p class="form-detail__name">Subtotal:</p>
+								   <p class="form-detail__sum">$84.00</p>
+							   </div>
+							   <div class="form-detail">
+								   <p class="form-detail__name">Shipping:</p>
+								   <p class="form-detail__sum">Free</p>
+							   </div>
+							   <div class="form-detail">
+								   <p class="form-detail__name">Total:</p>
+								   <p class="form-detail__sum form-detail__sum--size">$84.00</p>
+							   </div>
+							</div>
+						</div>
+							<div class="section__payment">
+								<h2 class="section__subject">
+									Payment Method
+								</h2>
+							</div>
+							<div class="form-payments">
+								<div class="form-payment">
+                           <label class="form-payment__button">
+								      <input checked type="radio" name="form[]" class="form-payment__input">
+								      <span class="form-payment__label">Cash on Delivery</span>
+							      </label>
+								</div>
+								<div class="form-payment">
+                           <label class="form-payment__button">
+								      <input checked type="radio" name="form[]" class="form-payment__input">
+								      <span class="form-payment__label">Paypal</span>
+							      </label>
+							   </div>
+								<div class="form-payment">
+							      <label class="form-payment__button">
+								      <input checked type="radio" name="form[]" class="form-payment__input">
+								      <span class="form-payment__label">Amazon Pay</span>
+							      </label>
+							   </div>
+							</div>
+							<div class="form-place">
+								<div class="form-place__button">
+								    <a class="form-place__but" href="#">Place Order</a>
+								</div>
+							</div>
+                  </div> 
+					</form>
+				</div>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
